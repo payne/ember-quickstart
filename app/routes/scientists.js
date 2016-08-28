@@ -4,6 +4,9 @@ import Ember from 'ember';
 export default Ember.Route.extend({
 
   model() {
-    return ['Marie Curie', 'Mae Jemison', 'Albert Hofmann', 'John Lennon', 'Paul','George','Ringo'];
-  }
+    const store = this.get('store');
+    return store.getScienctists();
+  },
+
+  store: Ember.inject.service('store')
 });
