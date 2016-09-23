@@ -1,3 +1,10 @@
+# Notes
+1. https://github.com/poetic/ember-cli-github-pages works well.
+   1. This application is online at http://payne.github.io/ember-quickstart
+   1. Since I keep a vanity URL blog at http://payne.github.io that URL becomes http://mattpayne.org/ember-quickstart
+
+
+
 # Ember-quickstart
 
 This README outlines the details of collaborating on this Ember application.
@@ -50,4 +57,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
